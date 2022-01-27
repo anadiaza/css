@@ -37,8 +37,52 @@ header.portada {
     background-color: rgba(0,0,0,6);
     color: #ffffff;
     
-    
-    
-    
-    
 }
+
+
+
+
+
+/*stylos imagenes*/
+
+figure.w3c.css {
+    
+    background-image: url("../svg/w3c/css.svg");
+        
+}
+
+figure.w3c.mcag {
+    
+    background-image: url("../svg/w3c/mcag.svg");
+        
+}
+
+figure.w3c.html5 {
+    
+    background-image: url("../svg/w3c/html5.svg");
+        
+}
+
+
+
+figure.caja: {
+
+    width: 500px;
+    height: 300px;
+    background: yellow;
+    background-image:  rl ("https://cdn.pixabay.com/photo/2017/12/10/17/40/prague-3010407_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    
+    
+    }
+
+    
+
+    
+    
+    
+    
+    
+    
