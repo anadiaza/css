@@ -24,15 +24,15 @@ h6{font-size: 1.1em}
 /*Familia y colores*/
  
 h1, h2, h3, h4, h5, h6 {
-    font-family:"dongle", "arial bold", sans-serif;
+    font-family:"dongle", "arial bold", serif;
     text-transform: capitalize;
     /*color generico*/
     color: green;     
 }
 
 
-p, a, li, strong, em, spam, figcaption, q, blockquote {
-    font-family: "Montserrat", Verdana, sans-serif;
+p, a, li, strong, em, span, figcaption, q, blockquote {
+    font-family: "Montserrat", Verdana, Helvetica, sans-serif;
     font-size: 1em;
     color: #6666;
 }
@@ -62,7 +62,7 @@ figcaption {
 p.nota {
     background-color: steelblue;
     padding: 1em;
-    border-left: .25em solid blue;
+    border-left: .25em solid darkblue;
     border-radius: 5px;
     
 }
