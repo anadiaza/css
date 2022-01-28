@@ -127,6 +127,77 @@ body main section {
   padding: vw;
 }
 
+/* estilos para el footer*/
+
+body > footer {
+    background-color: black;
+    padding-left: 7.5vw;
+    padding-right: 7.5vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+/*quitar estilos de lista*/
+body > footer {
+    list-style: none;
+}
+/*convertir li en elementos en linea*/
+
+body > footer li.validator;
+body > footer li.legal; {
+    display: inline-block;
+    font-size: small;
+}
+/* cambio de tamaño iconos validadores*/
+
+figure.w3c {
+    width: 5vw;
+    height: 1,76uw;
+    margin: 0,5;
+}
+/* poner el mismo márgen que las figures validadores*/
+li.legal a {
+    margin: 0.5em;
+}
+li.legal,
+li.legal a {
+    height: 4em;
+    line-height: 4em;
+}
+
+body > footer h2,
+body > footer li a;
+body > footer li a span {
+    color: white;
+}
+
+ footer section.footer__pie{
+    display: none;
+ }
+
+section.contentinfo a.pattern figure {
+    background: lime;
+
+    width: 30vw;
+    height: 13.22vw;
+    background-image: url("../img/anagrama mio100");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-position: 50% 50%;
+   
+}
+
+section.contentinfo a.pattern {
+    width: 40%;
+
+}
+
+div[ role="group"] {
+    width: 40%;
+
+
+}
+
     
     
     
