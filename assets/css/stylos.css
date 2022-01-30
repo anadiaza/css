@@ -9,10 +9,11 @@ URL de importación ( "https://fonts.googleapis.com/css2?family=DM+Serif+Display
   content: '';
   bottom: 2vh;
   right: 5vh;
-  width: 30.02024vh;
-  height: 28vh;
+  width: 13.8437vh;
+  height: 20vh;
   opacity: 0.5;
-  background-image: url("../img/anagrama%20mio100.png");/* tb puedo poner una direccion en internet*/
+  background-image: url("../img/ana16.png");
+  /* tb puedo poner una direccion en internet*/
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat; }
@@ -58,7 +59,7 @@ figure.w3c.wcag{
 figure.w3c.html5{
     background-image: url("../svg/w3c/html5.svg");
 }
-
+/*riglas comunes a kistres*/
 figure.w3c{
   width: 88px;
   height: 31px;
@@ -73,7 +74,7 @@ figure.caja {
     width: 500px;
     height: 300px;
     background: yellow;
-    background-image: url("https://pixabay.com/es/photos/cepillos-pintor-taller-cuenco-3129361/");
+    background-image: url("https://cdn.pixabay.com/photo/2018/02/04/09/09/brushes-3129361_960_720.jpg");
     background-repeat: no-repeat;
     background-position: cover;
     background-position: 50% 50%;
@@ -84,6 +85,10 @@ article.image{
     width: 500px;
     height: 300px;
     background-color: blue;
+    background-image: url("https://cdn.pixabay.com/photo/2018/02/04/09/09/brushes-3129361_960_720.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    opacity: 0.5;
 }
 
 article.image{
@@ -105,26 +110,23 @@ article.image:before {
     
 }
 
-
-
-
 article.image h2,
 article.image p {
     text-align: center;
     position: relative;
     color: white;
+/*bold no seria necesario pues los encabezados por defecto son bold*/
+    font-weight: bold;
 }
 
 article.image p{
   font-weight: bold;
 }
 
-
-
 /*maquetación*/
 
 body main section {
-  padding: vw;
+  padding: 5vw;
 }
 
 /* estilos para el footer*/
@@ -143,8 +145,8 @@ body > footer {
 }
 /*convertir li en elementos en linea*/
 
-body > footer li.validator;
-body > footer li.legal; {
+body > footer li.validator,
+body > footer li.legal {
     display: inline-block;
     font-size: small;
 }
@@ -152,8 +154,8 @@ body > footer li.legal; {
 
 figure.w3c {
     width: 5vw;
-    height: 1,76uw;
-    margin: 0,5;
+    height: 1.76uw;
+    margin: 0.5;
 }
 /* poner el mismo márgen que las figures validadores*/
 li.legal a {
@@ -164,23 +166,24 @@ li.legal a {
     height: 4em;
     line-height: 4em;
 }
-
+/*textos en color blanco*/
 body > footer h2,
-body > footer li a;
+body > footer li a,
 body > footer li a span {
     color: white;
 }
 
- footer section.footer__pie{
+ footer section.footer__pie h2 {
     display: none;
  }
 
+/*logotipo de footer*/
 section.contentinfo a.pattern figure {
     background: lime;
 
-    width: 30vw;
+    width: 20vw;
     height: 13.22vw;
-    background-image: url("../img/anagrama mio100");
+    background-image: url("../img/ana16.png");
     background-repeat: no-repeat;
     background-position: cover;
     background-position: 50% 50%;
@@ -197,7 +200,77 @@ div[ role="group"] {
 
 
 }
+/*estilos para footer*/
+/* Estilos para el footer del sitio web */
 
+/* Fondo color negro  */
+body > footer {
+    background-color: black;
+    padding-left: 7.5vw;
+    padding-right: 7.5vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+/* Quitar estilos de lista */
+body > footer li {
+    list-style: none;
+}
+
+/* Convertir li en elementos en línea */
+body > footer li.validator,
+body > footer li.legal {
+    display: inline-block;
+    font-size: small;
+}
+
+/* Reducir tamaño iconos validadores */
+figure.w3c{
+    width: 5vw;
+    height: 1.76vw;
+    margin: 0.5em;
+    /* width: 2em;
+    height: 0.7em; */
+}
+
+/* Poner el mismo márgen que los figures validadores */
+li.legal {
+    margin: 0.5em;
+}
+
+li.legal,
+li.legal a {
+    height: 4em;
+    line-height: 4em;
+}
+
+/* Textos en color blanco */
+body > footer h2,
+body > footer li a,
+body > footer li a span {
+    color: white;
+}
+
+/* No mostrar el h2 del footer del sitio */
+footer section.footer__pie h2 {
+    display: none;
+}
+
+section.contentinfo a.pattern figure {
+    width: 20vw;
+    height: 13.32vw;
+    background-image: url('../svg/logo.svg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.contentinfo a.pattern {
+    width: 40%;
+}
+div[role="group"] {
+    width: 40%;
+}
     
     
     
